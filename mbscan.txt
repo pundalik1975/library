@@ -1,0 +1,11 @@
+project for scanner
+hardware: mbscan1,2,3
+
+date of commencement: 1st october 2019
+inputs: pt100,j,k,r,s,t,4~20ma,volt
+range: -1999 to 9999
+adc: 14 bit (+/-32000 counts)
+output: common alarm high and low
+modbus: RS485 enabled
+processor: atmega32
+serial speed: 9600 or 19200 (extendable)
